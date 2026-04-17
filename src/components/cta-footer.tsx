@@ -8,19 +8,19 @@ export function CTASection() {
 
       <div className="relative z-10 mx-auto max-w-3xl px-6 text-center">
         <h2 className="text-3xl sm:text-4xl font-bold tracking-tight animate-on-scroll">
-          Start building your AI agent
-          <br />
-          <span className="gradient-text">in minutes, not months</span>
+          Your next support channel doesn&apos;t sleep,
+          <br className="hidden sm:block" />
+          <span className="gradient-text">doesn&apos;t call in sick, and knows every policy by heart.</span>
         </h2>
-        <p className="mt-4 text-lg text-muted-foreground animate-on-scroll animate-delay-100">
-          Free trial included. No credit card required.
+        <p className="mt-5 text-lg text-muted-foreground animate-on-scroll animate-delay-100">
+          Start your free trial. Have your first AI agent live on WhatsApp or your website today.
         </p>
         <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4 animate-on-scroll animate-delay-200">
           <a
             href="https://app.fojiai.com/signup"
             className="text-base font-semibold bg-primary text-primary-foreground px-8 py-3.5 rounded-xl hover:brightness-110 transition-all active:scale-[0.98] shadow-lg shadow-primary/25"
           >
-            Create Free Account
+            Create My Free Agent →
           </a>
           <a
             href="https://app.fojiai.com/contact"
@@ -29,6 +29,9 @@ export function CTASection() {
             Talk to Sales
           </a>
         </div>
+        <p className="mt-4 text-xs text-muted-foreground/50 animate-on-scroll animate-delay-300">
+          No credit card required · LGPD compliant · Cancel anytime
+        </p>
       </div>
     </section>
   );
@@ -46,7 +49,7 @@ export function Footer() {
               <span className="font-bold text-lg">Foji AI</span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Forge your intelligence. AI-powered chat agents for Brazilian businesses.
+              AI agents trained on your documents. For your website and WhatsApp.
             </p>
           </div>
 
@@ -55,6 +58,7 @@ export function Footer() {
             <p className="text-sm font-semibold mb-3">Product</p>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li><a href="#features" className="hover:text-foreground transition-colors">Features</a></li>
+              <li><a href="#whatsapp" className="hover:text-foreground transition-colors">WhatsApp</a></li>
               <li><a href="#pricing" className="hover:text-foreground transition-colors">Pricing</a></li>
               <li><a href="#use-cases" className="hover:text-foreground transition-colors">Use Cases</a></li>
               <li><a href="#faq" className="hover:text-foreground transition-colors">FAQ</a></li>
@@ -72,19 +76,42 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Connect */}
+          {/* Get Started */}
           <div>
             <p className="text-sm font-semibold mb-3">Get Started</p>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li><a href="https://app.fojiai.com/signup" className="hover:text-foreground transition-colors">Create Account</a></li>
-              <li><a href="https://app.fojiai.com/login" className="hover:text-foreground transition-colors">Login</a></li>
+              <li>
+                <a href="https://app.fojiai.com/signup" className="hover:text-foreground transition-colors">
+                  Create Free Account
+                </a>
+              </li>
+              <li>
+                <a href="https://app.fojiai.com/login" className="hover:text-foreground transition-colors">
+                  Login
+                </a>
+              </li>
             </ul>
+            <div className="mt-5">
+              <a
+                href="https://app.fojiai.com/signup"
+                className="inline-block text-xs font-semibold bg-primary text-primary-foreground px-4 py-2 rounded-lg hover:brightness-110 transition-all"
+              >
+                Start Free →
+              </a>
+            </div>
           </div>
         </div>
 
         <div className="mt-12 pt-6 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-muted-foreground">
           <p>&copy; 2026 P2 TECH INOVA SIMPLES (I.S.) — CNPJ 52.417.209/0001-59</p>
-          <p>Made in Brazil with ❤️</p>
+          <div className="flex items-center gap-3">
+            <span className="flex items-center gap-1">
+              <svg className="w-3 h-3 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
+              LGPD Compliant
+            </span>
+            <span>·</span>
+            <span>Made in Brazil 🇧🇷</span>
+          </div>
         </div>
       </div>
     </footer>

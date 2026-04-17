@@ -6,42 +6,58 @@ const CASES = [
   {
     id: "support",
     label: "Customer Support",
-    title: "Instant answers, 24/7",
-    description: "Let your AI handle common questions while your team focuses on complex issues. Trained on your FAQ, policies, and product docs.",
+    title: "Answer 80% of Questions — Without Hiring Anyone",
+    description:
+      "Your team spends hours answering questions that are already documented. Foji handles returns, order tracking, FAQs, and pricing automatically — 24/7. Your agents only get involved when it actually matters.",
     messages: [
-      { role: "user", text: "How do I track my order?" },
-      { role: "assistant", text: "You can track your order by visiting our website and clicking 'My Orders' in the top menu. You'll need the email address used during purchase. Would you like me to send you the tracking link?" },
-      { role: "user", text: "Yes please!" },
+      { role: "user", text: "Como faço para rastrear meu pedido?" },
+      {
+        role: "assistant",
+        text: "Você pode rastrear seu pedido pelo nosso site em 'Meus Pedidos', usando o e-mail do cadastro. O prazo de entrega para SP capital é de 1 a 2 dias úteis. Posso rastrear agora para você?",
+      },
+      { role: "user", text: "Sim, por favor!" },
     ],
   },
   {
     id: "legal",
     label: "Legal",
-    title: "Legal information at scale",
-    description: "Help clients understand contracts, procedures, and legal concepts — with proper disclaimers. Trained on your legal documentation.",
+    title: "Scale Client Communication Without Scaling Headcount",
+    description:
+      "Let clients get answers to common legal questions at any hour — contracts, deadlines, procedures — with proper disclaimers and direct citations. Trained on your firm's actual documentation, not generic law.",
     messages: [
-      { role: "user", text: "What's the deadline for filing a labor complaint?" },
-      { role: "assistant", text: "According to the CLT (Art. 11), the statute of limitations for filing a labor complaint is 2 years after the termination of the employment contract, covering claims from the last 5 years. I recommend consulting a qualified attorney for your specific case." },
+      { role: "user", text: "Qual o prazo para entrar com reclamação trabalhista?" },
+      {
+        role: "assistant",
+        text: "Segundo a CLT (Art. 11), o prazo prescricional é de 2 anos após o término do contrato, com direito a reclamar os últimos 5 anos. Recomendo consultar um advogado para analisar seu caso específico.",
+      },
     ],
   },
   {
     id: "finance",
     label: "Finance",
-    title: "Financial guidance made accessible",
-    description: "Help customers understand tax procedures, billing, and accounting concepts — all based on your official documentation.",
+    title: "Your Financial Knowledge, Available on Demand",
+    description:
+      "Clients ask the same tax and accounting questions every day. Let your AI answer instantly, based on your official documentation. Free your team for complex, billable work — not repetitive Q&A.",
     messages: [
-      { role: "user", text: "When is the deadline for Simples Nacional?" },
-      { role: "assistant", text: "The monthly deadline for DAS (Simples Nacional) payment is the 20th of each month. If the 20th falls on a weekend or holiday, the deadline moves to the next business day. Do you need help understanding the calculation?" },
+      { role: "user", text: "Quando vence o DAS do Simples Nacional?" },
+      {
+        role: "assistant",
+        text: "O vencimento mensal do DAS (Simples Nacional) é todo dia 20. Se cair em fim de semana ou feriado, o prazo é o próximo dia útil. Precisa de ajuda para calcular o valor?",
+      },
     ],
   },
   {
     id: "hr",
     label: "HR & Internal",
-    title: "Empower your employees",
-    description: "Reduce internal support tickets. Your AI handles questions about policies, benefits, vacation rules, and onboarding procedures.",
+    title: "Cut Internal Support Tickets by 70%",
+    description:
+      "Vacation policy, benefits, onboarding checklists, expense rules — employees get answers immediately without emailing HR. Works inside your internal tools or directly on WhatsApp.",
     messages: [
-      { role: "user", text: "How many vacation days do I have?" },
-      { role: "assistant", text: "Based on our company policy, full-time employees earn 30 calendar days of vacation per year after completing 12 months of service (per CLT Art. 130). You can check your available balance in the HR portal under 'My Benefits'. Would you like the link?" },
+      { role: "user", text: "Quantos dias de férias eu tenho direito?" },
+      {
+        role: "assistant",
+        text: "Funcionários CLT têm direito a 30 dias corridos de férias após cada 12 meses de trabalho (Art. 130 da CLT). Você pode consultar seu saldo no portal de RH em 'Meus Benefícios'. Posso te enviar o link?",
+      },
     ],
   },
 ];
@@ -57,8 +73,11 @@ export function UseCases() {
         <div className="text-center mb-12">
           <p className="text-sm font-semibold text-primary uppercase tracking-widest mb-3 animate-on-scroll">Use Cases</p>
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight animate-on-scroll">
-            Built for every industry
+            Built for Every Industry
           </h2>
+          <p className="mt-4 text-lg text-muted-foreground max-w-xl mx-auto animate-on-scroll animate-delay-100">
+            Same platform, different knowledge base. Your AI knows your business — not a generic one.
+          </p>
         </div>
 
         {/* Tabs */}
@@ -80,22 +99,26 @@ export function UseCases() {
 
         {/* Content */}
         <div className="grid md:grid-cols-2 gap-8 items-center animate-on-scroll">
-          <div className="space-y-4">
+          <div className="space-y-5">
             <h3 className="text-2xl font-bold">{current.title}</h3>
             <p className="text-muted-foreground leading-relaxed">{current.description}</p>
-            <a
-              href="https://app.fojiai.com/signup"
-              className="inline-flex items-center gap-2 text-sm font-semibold text-primary hover:underline"
-            >
-              Try it free
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-            </a>
+            <div className="flex items-center gap-4">
+              <a
+                href="https://app.fojiai.com/signup"
+                className="inline-flex items-center gap-2 text-sm font-semibold bg-primary text-primary-foreground px-5 py-2.5 rounded-xl hover:brightness-110 transition-all active:scale-[0.98]"
+              >
+                Try it free →
+              </a>
+              <span className="text-xs text-muted-foreground">No credit card needed</span>
+            </div>
           </div>
 
           {/* Mock chat */}
           <div className="rounded-2xl border border-border bg-card overflow-hidden glow-red">
-            <div className="bg-primary/10 px-4 py-3 border-b border-border">
+            <div className="bg-primary/10 px-4 py-3 border-b border-border flex items-center gap-2">
+              <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
               <p className="text-sm font-semibold">{current.label} Agent</p>
+              <span className="ml-auto text-xs text-muted-foreground">via Foji AI</span>
             </div>
             <div className="p-4 space-y-3 min-h-[220px]">
               {current.messages.map((msg, i) => (
