@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export function CTASection() {
   return (
@@ -69,9 +70,8 @@ export function Footer() {
           <div>
             <p className="text-sm font-semibold mb-3">Company</p>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li><a href="https://app.fojiai.com/legal" className="hover:text-foreground transition-colors">Terms of Service</a></li>
-              <li><a href="https://app.fojiai.com/privacy" className="hover:text-foreground transition-colors">Privacy Policy</a></li>
-              <li><a href="https://app.fojiai.com/refund" className="hover:text-foreground transition-colors">Refund Policy</a></li>
+              <li><Link href="/termos" className="hover:text-foreground transition-colors">Terms of Service</Link></li>
+              <li><Link href="/privacidade" className="hover:text-foreground transition-colors">Privacy Policy</Link></li>
               <li><a href="https://app.fojiai.com/contact" className="hover:text-foreground transition-colors">Contact</a></li>
             </ul>
           </div>
