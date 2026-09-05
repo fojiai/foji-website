@@ -55,12 +55,12 @@ export function Pricing() {
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[600px] h-[600px] rounded-full bg-primary/3 blur-[150px]" />
       <div className="relative z-10 mx-auto max-w-5xl px-6">
         <div className="text-center mb-12">
-          <p className="text-sm font-semibold text-primary uppercase tracking-widest mb-3 animate-on-scroll">Pricing</p>
+          <p className="text-sm font-semibold text-primary uppercase tracking-widest mb-3 animate-on-scroll">Planos</p>
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight animate-on-scroll">
-            Simple, transparent pricing
+            Preço simples e transparente
           </h2>
           <p className="mt-4 text-lg text-muted-foreground animate-on-scroll animate-delay-100">
-            Start free. Upgrade when you&apos;re ready.
+            Comece grátis. Mude de plano quando quiser.
           </p>
         </div>
 
@@ -108,18 +108,18 @@ export function Pricing() {
                   </div>
 
                   <ul className="space-y-3 flex-1 mb-6">
-                    <PlanFeature text={plan.maxAgents >= 999 ? "Unlimited agents" : `${plan.maxAgents} AI agents`} />
+                    <PlanFeature text={plan.maxAgents >= 999 ? "Agentes ilimitados" : `${plan.maxAgents} agentes de IA`} />
                     <PlanFeature text={
                       plan.maxConversationsPerMonth === 0
-                        ? "Unlimited conversations"
+                        ? "Conversas ilimitadas"
                         : `${formatNumber(plan.maxConversationsPerMonth)} conversations/mo`
                     } />
                     {plan.maxMembers > 0 && <PlanFeature text={`${plan.maxMembers} team members`} />}
-                    {plan.maxMembers === 0 && <PlanFeature text="Unlimited team members" />}
-                    <PlanFeature text="PDF, DOCX, PPTX, XLSX uploads" />
-                    <PlanFeature text="Website chat widget" />
-                    {plan.hasWhatsApp && <PlanFeature text="WhatsApp integration" />}
-                    {plan.hasEscalationContacts && <PlanFeature text="Escalation contacts" />}
+                    {plan.maxMembers === 0 && <PlanFeature text="Usuários ilimitados" />}
+                    <PlanFeature text="Envio de PDF, DOCX, PPTX e XLSX" />
+                    <PlanFeature text="Chat no seu site" />
+                    {plan.hasWhatsApp && <PlanFeature text="Integração com WhatsApp" />}
+                    {plan.hasEscalationContacts && <PlanFeature text="Contatos para transferir atendimento" />}
                   </ul>
 
                   <a
@@ -130,7 +130,7 @@ export function Pricing() {
                         : "border border-border hover:bg-muted"
                     }`}
                   >
-                    Start Free Trial
+                    Começar teste grátis
                   </a>
                 </div>
               );

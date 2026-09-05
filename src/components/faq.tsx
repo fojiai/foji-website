@@ -4,36 +4,36 @@ import { useState } from "react";
 
 const FAQS = [
   {
-    q: "What types of documents can I upload?",
-    a: "You can upload PDF, DOCX, PPTX, and XLSX files up to 30MB each. Our system extracts, normalizes, and chunks the text automatically so your AI agent can reference it in conversations.",
+    q: "Que tipos de documento posso enviar?",
+    a: "PDF, DOCX, PPTX e XLSX, com até 30 MB cada. O sistema lê e organiza o texto sozinho, para que o agente use esse conteúdo nas conversas.",
   },
   {
-    q: "Which AI models power the agents?",
-    a: "Foji AI supports multiple providers: OpenAI (GPT), Google Gemini, and AWS Bedrock (Amazon Nova). Your platform administrator selects which models are active, and the system distributes requests across them.",
+    q: "Qual IA está por trás dos agentes?",
+    a: "A Foji trabalha com vários provedores: OpenAI (GPT), Google Gemini e AWS Bedrock (Amazon Nova). O sistema distribui as conversas entre os modelos ativos.",
   },
   {
-    q: "How does the WhatsApp integration work?",
-    a: "Once enabled on your plan, you connect your WhatsApp Business number through the Meta Cloud API. Incoming messages are automatically routed to your AI agent, which responds in real-time. Escalation contacts can be configured for human handoff.",
+    q: "Como funciona a integração com o WhatsApp?",
+    a: "Com o recurso liberado no seu plano, você conecta o seu número do WhatsApp Business em um clique, pela própria Meta. As mensagens que chegam vão direto para o agente, que responde na hora. Você também pode cadastrar contatos para transferir a conversa a uma pessoa quando precisar.",
   },
   {
-    q: "Is my data secure?",
-    a: "Yes. Documents are stored encrypted on AWS S3. Chat history is stored in DynamoDB with a 90-day TTL. We comply with LGPD (Brazil), GDPR (EU), and CCPA (US). Payment data is processed by Stripe — we never store credit card numbers.",
+    q: "Meus dados estão seguros?",
+    a: "Sim. Os documentos ficam criptografados na AWS. O histórico de conversas é apagado automaticamente após 90 dias. Seguimos a LGPD (Brasil), o GDPR (UE) e o CCPA (EUA). Os pagamentos são processados pela Stripe — nunca guardamos números de cartão.",
   },
   {
-    q: "Can I use Foji AI in multiple languages?",
-    a: "Absolutely. Agents can respond in Portuguese (BR), English, or Spanish. The dashboard and all user-facing content is fully translated in all three languages.",
+    q: "Dá para usar a Foji em outros idiomas?",
+    a: "Sim. Os agentes respondem em português, inglês ou espanhol, e o painel está traduzido nos três idiomas.",
   },
   {
-    q: "What happens when I cancel?",
-    a: "Your access continues until the end of the current billing period. After that, your data is retained for 30 days before permanent deletion. You can resubscribe at any time. First-time subscribers have a 7-day regret period per Brazilian Consumer Protection Code (CDC Art. 49).",
+    q: "O que acontece se eu cancelar?",
+    a: "Você continua com acesso até o fim do período já pago. Depois disso, seus dados ficam guardados por 30 dias antes da exclusão definitiva. Pode voltar quando quiser. Na primeira assinatura você tem 7 dias de arrependimento, conforme o Código de Defesa do Consumidor (Art. 49).",
   },
   {
-    q: "Can multiple team members manage agents?",
-    a: "Yes. Each company workspace supports multiple users with role-based access: Owner, Admin, and User. Team member limits depend on your plan.",
+    q: "Minha equipe toda pode usar?",
+    a: "Pode. Cada empresa tem vários usuários, com três níveis de acesso: proprietário, administrador e usuário. A quantidade de pessoas depende do seu plano.",
   },
   {
-    q: "Do I need technical knowledge to use Foji AI?",
-    a: "Not at all. Creating an agent takes less than 5 minutes — choose a template, upload your documents, and copy the embed code. No coding required unless you want to customize the widget styling.",
+    q: "Preciso entender de tecnologia para usar?",
+    a: "Não precisa. Criar um agente leva menos de 5 minutos: escolha um modelo, envie seus documentos e cole uma linha no site. Só mexe em código quem quiser personalizar o visual do chat.",
   },
 ];
 
@@ -44,9 +44,9 @@ export function FAQ() {
     <section id="faq" className="py-24 border-t border-border">
       <div className="mx-auto max-w-3xl px-6">
         <div className="text-center mb-12">
-          <p className="text-sm font-semibold text-primary uppercase tracking-widest mb-3 animate-on-scroll">FAQ</p>
+          <p className="text-sm font-semibold text-primary uppercase tracking-widest mb-3 animate-on-scroll">Dúvidas</p>
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight animate-on-scroll">
-            Frequently asked questions
+            Perguntas frequentes
           </h2>
         </div>
 

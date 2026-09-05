@@ -4,11 +4,11 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 
 const NAV_LINKS = [
-  { href: "#features", label: "Features" },
-  { href: "#how-it-works", label: "How it Works" },
-  { href: "#use-cases", label: "Use Cases" },
-  { href: "#pricing", label: "Pricing" },
-  { href: "#faq", label: "FAQ" },
+  { href: "#features", label: "Recursos" },
+  { href: "#how-it-works", label: "Como funciona" },
+  { href: "#use-cases", label: "Casos de uso" },
+  { href: "#pricing", label: "Planos" },
+  { href: "#faq", label: "Dúvidas" },
 ];
 
 export function Navbar() {
@@ -53,13 +53,13 @@ export function Navbar() {
             href="https://app.fojiai.com/login"
             className="text-sm text-muted-foreground hover:text-foreground transition-colors px-4 py-2"
           >
-            Login
+            Entrar
           </a>
           <a
             href="https://app.fojiai.com/signup"
             className="text-sm font-semibold bg-primary text-primary-foreground px-5 py-2.5 rounded-xl hover:brightness-110 transition-all active:scale-[0.98]"
           >
-            Start Free
+            Começar grátis
           </a>
         </div>
 
@@ -93,10 +93,10 @@ export function Navbar() {
           ))}
           <div className="pt-3 border-t border-border space-y-2">
             <a href="https://app.fojiai.com/login" className="block text-sm text-center py-2.5 rounded-xl border border-border hover:bg-muted transition-colors">
-              Login
+              Entrar
             </a>
             <a href="https://app.fojiai.com/signup" className="block text-sm text-center font-semibold bg-primary text-primary-foreground py-2.5 rounded-xl">
-              Start Free
+              Começar grátis
             </a>
           </div>
         </div>

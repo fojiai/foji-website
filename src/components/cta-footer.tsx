@@ -9,29 +9,29 @@ export function CTASection() {
 
       <div className="relative z-10 mx-auto max-w-3xl px-6 text-center">
         <h2 className="text-3xl sm:text-4xl font-bold tracking-tight animate-on-scroll">
-          Your next support channel doesn&apos;t sleep,
+          Seu próximo atendente não dorme,{" "}
           <br className="hidden sm:block" />
-          <span className="gradient-text">doesn&apos;t call in sick, and knows every policy by heart.</span>
+          <span className="gradient-text">não falta, e sabe todas as suas regras de cor.</span>
         </h2>
         <p className="mt-5 text-lg text-muted-foreground animate-on-scroll animate-delay-100">
-          Start your free trial. Have your first AI agent live on WhatsApp or your website today.
+          Comece o teste grátis e coloque seu primeiro agente no ar hoje, no WhatsApp ou no seu site.
         </p>
         <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4 animate-on-scroll animate-delay-200">
           <a
             href="https://app.fojiai.com/signup"
             className="text-base font-semibold bg-primary text-primary-foreground px-8 py-3.5 rounded-xl hover:brightness-110 transition-all active:scale-[0.98] shadow-lg shadow-primary/25"
           >
-            Create My Free Agent →
+            Criar meu agente grátis →
           </a>
           <a
             href="https://app.fojiai.com/contact"
             className="text-base font-medium border border-border px-8 py-3.5 rounded-xl hover:bg-muted transition-all text-muted-foreground hover:text-foreground"
           >
-            Talk to Sales
+            Falar com vendas
           </a>
         </div>
         <p className="mt-4 text-xs text-muted-foreground/50 animate-on-scroll animate-delay-300">
-          No credit card required · LGPD compliant · Cancel anytime
+          Sem cartão de crédito · Conforme a LGPD · Cancele quando quiser
         </p>
       </div>
     </section>
@@ -50,44 +50,44 @@ export function Footer() {
               <span className="font-bold text-lg">Foji AI</span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              AI agents trained on your documents. For your website and WhatsApp.
+              Agentes de IA treinados com os seus documentos. Para o seu site e o seu WhatsApp.
             </p>
           </div>
 
           {/* Product */}
           <div>
-            <p className="text-sm font-semibold mb-3">Product</p>
+            <p className="text-sm font-semibold mb-3">Produto</p>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li><a href="#features" className="hover:text-foreground transition-colors">Features</a></li>
+              <li><a href="#features" className="hover:text-foreground transition-colors">Recursos</a></li>
               <li><a href="#whatsapp" className="hover:text-foreground transition-colors">WhatsApp</a></li>
-              <li><a href="#pricing" className="hover:text-foreground transition-colors">Pricing</a></li>
-              <li><a href="#use-cases" className="hover:text-foreground transition-colors">Use Cases</a></li>
-              <li><a href="#faq" className="hover:text-foreground transition-colors">FAQ</a></li>
+              <li><a href="#pricing" className="hover:text-foreground transition-colors">Planos</a></li>
+              <li><a href="#use-cases" className="hover:text-foreground transition-colors">Casos de uso</a></li>
+              <li><a href="#faq" className="hover:text-foreground transition-colors">Dúvidas</a></li>
             </ul>
           </div>
 
           {/* Company */}
           <div>
-            <p className="text-sm font-semibold mb-3">Company</p>
+            <p className="text-sm font-semibold mb-3">Empresa</p>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li><Link href="/termos" className="hover:text-foreground transition-colors">Terms of Service</Link></li>
-              <li><Link href="/privacidade" className="hover:text-foreground transition-colors">Privacy Policy</Link></li>
-              <li><a href="https://app.fojiai.com/contact" className="hover:text-foreground transition-colors">Contact</a></li>
+              <li><Link href="/termos" className="hover:text-foreground transition-colors">Termos de Uso</Link></li>
+              <li><Link href="/privacidade" className="hover:text-foreground transition-colors">Política de Privacidade</Link></li>
+              <li><a href="https://app.fojiai.com/contact" className="hover:text-foreground transition-colors">Contato</a></li>
             </ul>
           </div>
 
           {/* Get Started */}
           <div>
-            <p className="text-sm font-semibold mb-3">Get Started</p>
+            <p className="text-sm font-semibold mb-3">Comece agora</p>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
                 <a href="https://app.fojiai.com/signup" className="hover:text-foreground transition-colors">
-                  Create Free Account
+                  Criar conta grátis
                 </a>
               </li>
               <li>
                 <a href="https://app.fojiai.com/login" className="hover:text-foreground transition-colors">
-                  Login
+                  Entrar
                 </a>
               </li>
             </ul>
@@ -96,7 +96,7 @@ export function Footer() {
                 href="https://app.fojiai.com/signup"
                 className="inline-block text-xs font-semibold bg-primary text-primary-foreground px-4 py-2 rounded-lg hover:brightness-110 transition-all"
               >
-                Start Free →
+                Começar grátis →
               </a>
             </div>
           </div>

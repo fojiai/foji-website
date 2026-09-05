@@ -4,7 +4,7 @@ export function SocialProof() {
       <div className="mx-auto max-w-5xl px-6">
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-12 text-center">
           <p className="text-xs font-semibold text-muted-foreground/50 uppercase tracking-widest whitespace-nowrap">
-            Powered by
+            Tecnologia de
           </p>
           <div className="flex flex-wrap items-center justify-center gap-6 sm:gap-10">
             {/* OpenAI */}

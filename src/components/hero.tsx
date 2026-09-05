@@ -3,11 +3,11 @@
 import { useEffect, useState } from "react";
 
 const TYPING_PHRASES = [
-  "customer support",
-  "legal guidance",
-  "financial consulting",
-  "IT helpdesk",
-  "HR onboarding",
+  "atendimento ao cliente",
+  "dúvidas jurídicas",
+  "consultoria financeira",
+  "suporte de TI",
+  "onboarding de funcionários",
 ];
 
 export function Hero() {
@@ -51,25 +51,26 @@ export function Hero() {
         {/* Badge */}
         <div className="inline-flex items-center gap-2 rounded-full border border-border bg-muted/50 px-4 py-1.5 text-sm text-muted-foreground mb-8 animate-on-scroll">
           <span className="inline-block w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-          WhatsApp + Web Chat + LGPD Compliant
+          WhatsApp + chat no site + conforme a LGPD
         </div>
 
         {/* Headline */}
         <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight leading-[1.1] animate-on-scroll">
-          Your Business on WhatsApp.
+          Sua empresa no WhatsApp.{" "}
           <br className="hidden sm:block" />
-          <span className="gradient-text">Powered by AI. Running 24/7.</span>
+          <span className="gradient-text">Com IA. 24 horas por dia.</span>
         </h1>
 
         {/* Subheadline */}
         <p className="mt-6 text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed animate-on-scroll animate-delay-100">
-          Train an AI agent on your documents and let it handle customer questions
-          automatically — on WhatsApp and your website. No code. Setup in under 5 minutes.
+          Treine um agente de IA com os seus documentos e deixe que ele responda
+          seus clientes sozinho — no WhatsApp e no seu site. Sem programar,
+          em menos de 5 minutos.
         </p>
 
         {/* Typing secondary line */}
         <p className="mt-3 text-sm text-muted-foreground/60 animate-on-scroll animate-delay-150">
-          Works for{" "}
+          Funciona para{" "}
           <span className="text-primary font-medium">
             {currentText}
             <span className="typing-cursor" />
@@ -82,13 +83,13 @@ export function Hero() {
             href="https://app.fojiai.com/signup"
             className="w-full sm:w-auto text-base font-semibold bg-primary text-primary-foreground px-8 py-3.5 rounded-xl hover:brightness-110 transition-all active:scale-[0.98] shadow-lg shadow-primary/25"
           >
-            Build My Free AI Agent →
+            Criar meu agente grátis →
           </a>
           <a
             href="#how-it-works"
             className="w-full sm:w-auto text-base font-medium border border-border px-8 py-3.5 rounded-xl hover:bg-muted transition-all text-muted-foreground hover:text-foreground"
           >
-            See how it works
+            Ver como funciona
           </a>
         </div>
 
@@ -96,24 +97,24 @@ export function Hero() {
         <div className="mt-4 flex flex-wrap items-center justify-center gap-x-5 gap-y-1 text-xs text-muted-foreground/60 animate-on-scroll animate-delay-250">
           <span className="flex items-center gap-1">
             <svg className="w-3 h-3 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" /></svg>
-            No credit card required
+            Sem cartão de crédito
           </span>
           <span className="flex items-center gap-1">
             <svg className="w-3 h-3 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" /></svg>
-            LGPD compliant
+            Conforme a LGPD
           </span>
           <span className="flex items-center gap-1">
             <svg className="w-3 h-3 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" /></svg>
-            Cancel anytime
+            Cancele quando quiser
           </span>
         </div>
 
         {/* Stats */}
         <div className="mt-14 grid grid-cols-3 gap-8 max-w-lg mx-auto animate-on-scroll animate-delay-300">
           {[
-            { value: "3", label: "AI Providers" },
-            { value: "<5min", label: "Setup Time" },
-            { value: "LGPD", label: "Compliant" },
+            { value: "3", label: "Provedores de IA" },
+            { value: "<5min", label: "Para configurar" },
+            { value: "LGPD", label: "Conformidade" },
           ].map((stat) => (
             <div key={stat.label} className="text-center">
               <p className="text-2xl font-bold gradient-text">{stat.value}</p>
@@ -167,7 +168,7 @@ export function Hero() {
               </div>
             </div>
             <div className="absolute -bottom-5 left-1/2 -translate-x-1/2 text-xs text-muted-foreground whitespace-nowrap">
-              AI responding via WhatsApp — powered by Foji
+              IA respondendo no WhatsApp — com a Foji
             </div>
           </div>
         </div>

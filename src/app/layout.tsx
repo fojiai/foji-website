@@ -13,12 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Foji AI — AI Agents for WhatsApp & Your Website, Trained on Your Documents",
-  description: "Train an AI on your documents and deploy it to WhatsApp and your website in minutes. Answer customer questions 24/7 — automatically. LGPD compliant. Built for Brazilian businesses.",
+  title: "Foji AI — Agentes de IA para WhatsApp e site, treinados com os seus documentos",
+  description: "Treine uma IA com os seus documentos e coloque no WhatsApp e no seu site em minutos. Responda seus clientes 24 horas por dia, automaticamente. Conforme a LGPD. Feita para empresas brasileiras.",
   icons: { icon: "/favicon_foji.png" },
   openGraph: {
-    title: "Foji AI — Your Business on WhatsApp, Powered by AI",
-    description: "Train an AI agent on your documents. Deploy to WhatsApp and your website in under 5 minutes. Instant answers for your customers, 24/7.",
+    title: "Foji AI — Sua empresa no WhatsApp, com IA",
+    description: "Treine um agente de IA com os seus documentos e publique no WhatsApp e no seu site em menos de 5 minutos. Respostas na hora para os seus clientes, 24 horas por dia.",
     type: "website",
   },
 };

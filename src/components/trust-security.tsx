@@ -5,8 +5,8 @@ const TRUST_ITEMS = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
       </svg>
     ),
-    title: "Encrypted Storage on AWS",
-    body: "Your files are stored encrypted on AWS S3. Data never leaves your account and is never accessible to other Foji customers.",
+    title: "Armazenamento criptografado na AWS",
+    body: "Seus arquivos ficam criptografados na AWS. Os dados não saem da sua conta e nenhum outro cliente da Foji tem acesso a eles.",
   },
   {
     icon: (
@@ -14,8 +14,8 @@ const TRUST_ITEMS = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
       </svg>
     ),
-    title: "LGPD + GDPR Compliant",
-    body: "Built from the ground up for the Brazilian market. Fully compliant with LGPD (Brazil), GDPR (EU), and CCPA (US) data protection regulations.",
+    title: "Conforme a LGPD e o GDPR",
+    body: "Feita desde o início para o mercado brasileiro, seguindo a LGPD (Brasil), o GDPR (União Europeia) e o CCPA (Estados Unidos).",
   },
   {
     icon: (
@@ -23,8 +23,8 @@ const TRUST_ITEMS = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
       </svg>
     ),
-    title: "Never Used to Train AI",
-    body: "Your documents are never shared with or used to train OpenAI, Google, or any third-party AI model. Your knowledge is yours alone.",
+    title: "Nunca usados para treinar IA",
+    body: "Seus documentos não são compartilhados nem usados para treinar modelos da OpenAI, do Google ou de qualquer terceiro. O seu conhecimento continua sendo só seu.",
   },
   {
     icon: (
@@ -32,8 +32,8 @@ const TRUST_ITEMS = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
       </svg>
     ),
-    title: "PCI-Compliant Billing",
-    body: "Payments processed exclusively by Stripe. We never store, see, or touch your credit card data. Full PCI DSS compliance out of the box.",
+    title: "Cobrança com padrão PCI",
+    body: "Os pagamentos são processados exclusivamente pela Stripe. Nunca guardamos nem vemos os dados do seu cartão.",
   },
 ];
 
@@ -43,9 +43,9 @@ export function TrustSecurity() {
       <div className="absolute inset-0 bg-grid opacity-10" />
       <div className="relative z-10 mx-auto max-w-6xl px-6">
         <div className="text-center mb-12">
-          <p className="text-sm font-semibold text-primary uppercase tracking-widest mb-3 animate-on-scroll">Security & Privacy</p>
+          <p className="text-sm font-semibold text-primary uppercase tracking-widest mb-3 animate-on-scroll">Segurança e privacidade</p>
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight animate-on-scroll">
-            Your Documents Stay Yours
+            Seus documentos continuam seus
           </h2>
           <p className="mt-4 text-lg text-muted-foreground max-w-xl mx-auto animate-on-scroll animate-delay-100">
             Before uploading internal docs to any AI platform, you need to know your data is safe. Here&apos;s exactly what we do.

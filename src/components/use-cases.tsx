@@ -5,10 +5,10 @@ import { useState } from "react";
 const CASES = [
   {
     id: "support",
-    label: "Customer Support",
-    title: "Answer 80% of Questions — Without Hiring Anyone",
+    label: "Atendimento",
+    title: "Responda 80% das perguntas sem contratar ninguém",
     description:
-      "Your team spends hours answering questions that are already documented. Foji handles returns, order tracking, FAQs, and pricing automatically — 24/7. Your agents only get involved when it actually matters.",
+      "Sua equipe gasta horas respondendo o que já está documentado. A Foji cuida de trocas, rastreio de pedidos, dúvidas frequentes e preços sozinha, 24 horas por dia. Sua equipe entra só quando realmente importa.",
     messages: [
       { role: "user", text: "Como faço para rastrear meu pedido?" },
       {
@@ -20,10 +20,10 @@ const CASES = [
   },
   {
     id: "legal",
-    label: "Legal",
-    title: "Scale Client Communication Without Scaling Headcount",
+    label: "Jurídico",
+    title: "Atenda mais clientes sem aumentar a equipe",
     description:
-      "Let clients get answers to common legal questions at any hour — contracts, deadlines, procedures — with proper disclaimers and direct citations. Trained on your firm's actual documentation, not generic law.",
+      "Seus clientes tiram dúvidas comuns a qualquer hora — contratos, prazos, procedimentos — com os avisos necessários e referência à fonte. Treinado com os documentos do seu escritório, não com lei genérica.",
     messages: [
       { role: "user", text: "Qual o prazo para entrar com reclamação trabalhista?" },
       {
@@ -34,10 +34,10 @@ const CASES = [
   },
   {
     id: "finance",
-    label: "Finance",
-    title: "Your Financial Knowledge, Available on Demand",
+    label: "Contabilidade",
+    title: "Seu conhecimento contábil disponível a qualquer hora",
     description:
-      "Clients ask the same tax and accounting questions every day. Let your AI answer instantly, based on your official documentation. Free your team for complex, billable work — not repetitive Q&A.",
+      "Todo dia chegam as mesmas dúvidas sobre impostos e obrigações. Deixe a IA responder na hora, com base na sua documentação oficial, e libere a equipe para o trabalho que realmente fatura.",
     messages: [
       { role: "user", text: "Quando vence o DAS do Simples Nacional?" },
       {
@@ -48,10 +48,10 @@ const CASES = [
   },
   {
     id: "hr",
-    label: "HR & Internal",
-    title: "Cut Internal Support Tickets by 70%",
+    label: "RH e interno",
+    title: "Reduza em 70% os chamados internos",
     description:
-      "Vacation policy, benefits, onboarding checklists, expense rules — employees get answers immediately without emailing HR. Works inside your internal tools or directly on WhatsApp.",
+      "Férias, benefícios, integração de novos funcionários, regras de reembolso — o time se resolve na hora, sem precisar escrever para o RH. Funciona nas suas ferramentas internas ou direto no WhatsApp.",
     messages: [
       { role: "user", text: "Quantos dias de férias eu tenho direito?" },
       {
@@ -71,12 +71,12 @@ export function UseCases() {
       <div className="absolute top-0 right-0 w-[500px] h-[500px] rounded-full bg-primary/3 blur-[150px]" />
       <div className="relative z-10 mx-auto max-w-6xl px-6">
         <div className="text-center mb-12">
-          <p className="text-sm font-semibold text-primary uppercase tracking-widest mb-3 animate-on-scroll">Use Cases</p>
+          <p className="text-sm font-semibold text-primary uppercase tracking-widest mb-3 animate-on-scroll">Casos de uso</p>
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight animate-on-scroll">
-            Built for Every Industry
+            Feito para o seu ramo
           </h2>
           <p className="mt-4 text-lg text-muted-foreground max-w-xl mx-auto animate-on-scroll animate-delay-100">
-            Same platform, different knowledge base. Your AI knows your business — not a generic one.
+            Mesma plataforma, conhecimento diferente. A sua IA conhece o seu negócio — não um negócio genérico.
           </p>
         </div>
 
@@ -109,7 +109,7 @@ export function UseCases() {
               >
                 Try it free →
               </a>
-              <span className="text-xs text-muted-foreground">No credit card needed</span>
+              <span className="text-xs text-muted-foreground">Sem cartão de crédito</span>
             </div>
           </div>
 
