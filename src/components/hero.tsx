@@ -3,11 +3,11 @@
 import { useEffect, useState } from "react";
 
 const TYPING_PHRASES = [
-  "atendimento ao cliente",
-  "dúvidas jurídicas",
-  "consultoria financeira",
-  "suporte de TI",
-  "onboarding de funcionários",
+  "preços e prazos de entrega",
+  "status do pedido",
+  "formas de pagamento",
+  "horários e agendamentos",
+  "as políticas da empresa",
 ];
 
 export function Hero() {
@@ -51,26 +51,27 @@ export function Hero() {
         {/* Badge */}
         <div className="inline-flex items-center gap-2 rounded-full border border-border bg-muted/50 px-4 py-1.5 text-sm text-muted-foreground mb-8 animate-on-scroll">
           <span className="inline-block w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-          WhatsApp + chat no site + conforme a LGPD
+          Responde na hora, no WhatsApp e no seu site
         </div>
 
         {/* Headline */}
         <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight leading-[1.1] animate-on-scroll">
-          Sua empresa no WhatsApp.{" "}
+          Pare de perder cliente por demora no atendimento.{" "}
           <br className="hidden sm:block" />
-          <span className="gradient-text">Com IA. 24 horas por dia.</span>
+          <span className="gradient-text">Responda na hora, 24 horas por dia.</span>
         </h1>
 
         {/* Subheadline */}
         <p className="mt-6 text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed animate-on-scroll animate-delay-100">
-          Treine um agente de IA com os seus documentos e deixe que ele responda
-          seus clientes sozinho — no WhatsApp e no seu site. Sem programar,
-          em menos de 5 minutos.
+          A Foji atende seus clientes no WhatsApp e no seu site usando as
+          informações do seu próprio negócio — preços, prazos e políticas.
+          Responde na hora, a qualquer hora, sem você parar o que está fazendo.
+          Pronto em 5 minutos, sem instalar nada.
         </p>
 
         {/* Typing secondary line */}
         <p className="mt-3 text-sm text-muted-foreground/60 animate-on-scroll animate-delay-150">
-          Funciona para{" "}
+          Responde sobre{" "}
           <span className="text-primary font-medium">
             {currentText}
             <span className="typing-cursor" />
@@ -83,7 +84,7 @@ export function Hero() {
             href="https://app.fojiai.com/signup"
             className="w-full sm:w-auto text-base font-semibold bg-primary text-primary-foreground px-8 py-3.5 rounded-xl hover:brightness-110 transition-all active:scale-[0.98] shadow-lg shadow-primary/25"
           >
-            Criar meu agente grátis →
+            Quero atender na hora →
           </a>
           <a
             href="#how-it-works"
@@ -112,9 +113,9 @@ export function Hero() {
         {/* Stats */}
         <div className="mt-14 grid grid-cols-3 gap-8 max-w-lg mx-auto animate-on-scroll animate-delay-300">
           {[
-            { value: "3", label: "Provedores de IA" },
-            { value: "<5min", label: "Para configurar" },
-            { value: "LGPD", label: "Conformidade" },
+            { value: "24h", label: "Sempre no ar" },
+            { value: "5min", label: "Para começar" },
+            { value: "LGPD", label: "Dados protegidos" },
           ].map((stat) => (
             <div key={stat.label} className="text-center">
               <p className="text-2xl font-bold gradient-text">{stat.value}</p>
@@ -168,7 +169,7 @@ export function Hero() {
               </div>
             </div>
             <div className="absolute -bottom-5 left-1/2 -translate-x-1/2 text-xs text-muted-foreground whitespace-nowrap">
-              IA respondendo no WhatsApp — com a Foji
+              Respondido na hora, sem ninguém digitando
             </div>
           </div>
         </div>
