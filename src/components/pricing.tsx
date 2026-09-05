@@ -137,6 +137,24 @@ export function Pricing() {
             })}
           </div>
         )}
+
+        {/* Risk reversal. The 7-day right of regret is a real CDC guarantee, and
+            for a Brazilian buyer it is the single strongest "you can't lose"
+            signal — so it goes right under the prices, where the doubt is. */}
+        <div className="mt-10 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-center text-sm text-muted-foreground">
+          <span className="flex items-center gap-1.5">
+            <svg className="w-4 h-4 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+            7 dias de garantia (CDC Art. 49)
+          </span>
+          <span className="flex items-center gap-1.5">
+            <svg className="w-4 h-4 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+            Sem cartão para testar
+          </span>
+          <span className="flex items-center gap-1.5">
+            <svg className="w-4 h-4 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+            Cancele quando quiser
+          </span>
+        </div>
       </div>
     </section>
   );
