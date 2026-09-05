@@ -67,7 +67,7 @@ export function UseCases() {
   const current = CASES.find((c) => c.id === active) ?? CASES[0];
 
   return (
-    <section id="use-cases" className="py-24 border-t border-border relative">
+    <section id="use-cases" className="py-24 border-t border-border relative overflow-hidden">
       <div className="absolute top-0 right-0 w-[500px] h-[500px] rounded-full bg-primary/3 blur-[150px]" />
       <div className="relative z-10 mx-auto max-w-6xl px-6">
         <div className="text-center mb-12">

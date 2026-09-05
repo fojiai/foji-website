@@ -51,7 +51,7 @@ export function Pricing() {
     ?? plans[Math.floor(plans.length / 2)]?.slug;
 
   return (
-    <section id="pricing" className="py-24 border-t border-border relative">
+    <section id="pricing" className="py-24 border-t border-border relative overflow-hidden">
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[600px] h-[600px] rounded-full bg-primary/3 blur-[150px]" />
       <div className="relative z-10 mx-auto max-w-5xl px-6">
         <div className="text-center mb-12">
