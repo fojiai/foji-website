@@ -48,7 +48,7 @@ export function TrustSecurity() {
             Seus documentos continuam seus
           </h2>
           <p className="mt-4 text-lg text-muted-foreground max-w-xl mx-auto animate-on-scroll animate-delay-100">
-            Before uploading internal docs to any AI platform, you need to know your data is safe. Here&apos;s exactly what we do.
+            Antes de enviar documentos da sua empresa para qualquer ferramenta, você precisa ter certeza de que seus dados estão seguros. Aqui está, sem enrolação, o que a gente faz.
           </p>
         </div>
 

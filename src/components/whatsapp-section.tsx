@@ -29,14 +29,14 @@ export function WhatsAppSection() {
           {/* Left: copy */}
           <div className="space-y-6 animate-on-scroll">
             <h2 className="text-3xl sm:text-4xl font-bold tracking-tight leading-tight">
-              O seu número de WhatsApp,{" "}
-              <span className="gradient-text">com inteligência artificial</span>
+              O seu WhatsApp{" "}
+              <span className="gradient-text">respondendo sozinho, na hora</span>
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              No Brasil, o WhatsApp é o canal número 1 de contato com empresas. Seus clientes já esperam falar com você por lá. Com a Foji, a sua IA está pronta para atender — treinada com os seus documentos e no ar 24 horas por dia.
+              No Brasil, o WhatsApp é o canal número 1 de contato com empresas. Seus clientes já esperam falar com você por lá. Com a Foji, o seu número responde sozinho, na hora — com as informações do seu negócio e no ar 24 horas por dia.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Sem aplicativo extra, sem montar fluxo de chatbot, sem programador. Conecte o número de WhatsApp Business que você já usa e a IA cuida do resto.
+              Sem aplicativo extra, sem montar fluxo de chatbot, sem programador. Conecte o número de WhatsApp Business que você já usa e a Foji cuida do resto.
             </p>
 
             <ul className="space-y-3">
@@ -128,7 +128,7 @@ export function WhatsAppSection() {
 
               {/* Label */}
               <p className="text-xs text-center text-muted-foreground mt-4">
-                Powered by Foji AI — responding 24/7 on WhatsApp
+                Respondido na hora pela Foji, no WhatsApp
               </p>
             </div>
           </div>

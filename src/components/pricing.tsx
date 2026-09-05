@@ -108,7 +108,7 @@ export function Pricing() {
                   </div>
 
                   <ul className="space-y-3 flex-1 mb-6">
-                    <PlanFeature text={plan.maxAgents >= 999 ? "Agentes ilimitados" : `${plan.maxAgents} agentes de IA`} />
+                    <PlanFeature text={plan.maxAgents >= 999 ? "Atendentes ilimitados" : `${plan.maxAgents} atendentes`} />
                     <PlanFeature text={
                       plan.maxConversationsPerMonth === 0
                         ? "Conversas ilimitadas"

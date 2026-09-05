@@ -7,16 +7,16 @@ const FEATURES = [
     ),
     title: "WhatsApp de verdade, sem gambiarra",
     description:
-      "Transforme seu número do WhatsApp Business em um canal de atendimento com IA. O cliente manda mensagem, a IA responde na hora, 24 horas por dia, com base nos seus documentos.",
+      "Transforme o seu número do WhatsApp Business em um atendimento que nunca para. O cliente manda mensagem e recebe a resposta na hora, 24 horas por dia, com base nos seus documentos.",
     highlight: true,
   },
   {
     icon: (
       <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
     ),
-    title: "Seus documentos viram o cérebro dele",
+    title: "Responde com os seus próprios documentos",
     description:
-      "Envie PDFs, documentos do Word, planilhas ou apresentações. A Foji lê e organiza tudo para que a IA responda com o seu conteúdo — e não com informação genérica da internet.",
+      "Envie PDFs, documentos do Word, planilhas ou apresentações. A Foji lê e organiza tudo para responder com o seu conteúdo — e não com informação genérica da internet.",
   },
   {
     icon: (
@@ -30,7 +30,7 @@ const FEATURES = [
     icon: (
       <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" /></svg>
     ),
-    title: "Uma IA que conhece o seu negócio",
+    title: "Responde só o que é do seu negócio",
     description:
       "O agente não inventa: ele responde com base nos seus documentos. Nada de prometer uma política que você não tem. Por trás, OpenAI, Google Gemini e AWS Bedrock.",
   },
@@ -60,7 +60,7 @@ export function Features() {
         <div className="text-center mb-16">
           <p className="text-sm font-semibold text-primary uppercase tracking-widest mb-3 animate-on-scroll">Recursos</p>
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight animate-on-scroll">
-            Do PDF ao atendimento com IA em menos de 5 minutos
+            Do documento à resposta pronta em minutos
           </h2>
           <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto animate-on-scroll animate-delay-100">
             Tudo o que você precisa para parar de responder as mesmas perguntas na mão.

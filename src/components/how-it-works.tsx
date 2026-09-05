@@ -1,7 +1,7 @@
 const STEPS = [
   {
     number: "01",
-    title: "Crie o seu agente",
+    title: "Monte o seu atendente",
     description:
       "Escolha um modelo pronto para o seu ramo ou escreva as instruções do seu jeito. Dê um nome ao agente, defina o tom e o que ele deve saber. Leva uns 2 minutos.",
     visual: (
@@ -27,7 +27,7 @@ const STEPS = [
     number: "02",
     title: "Ensine o que ele precisa saber",
     description:
-      "Envie PDFs, documentos do Word, planilhas ou apresentações. A Foji lê e organiza tudo sozinha. A IA aprende com o seu conteúdo, não com informação genérica da internet. Seus documentos não são usados para treinar modelos de terceiros.",
+      "Envie PDFs, documentos do Word, planilhas ou apresentações. A Foji lê e organiza tudo sozinha, e passa a responder com o seu conteúdo, não com informação genérica da internet. Seus documentos não são usados para treinar modelos de terceiros.",
     visual: (
       <div className="rounded-xl border border-border bg-muted/30 p-4 space-y-2">
         {[
@@ -97,7 +97,7 @@ export function HowItWorks() {
         <div className="text-center mb-16">
           <p className="text-sm font-semibold text-primary uppercase tracking-widest mb-3 animate-on-scroll">Como funciona</p>
           <h2 className="text-3xl sm:text-4xl font-bold tracking-tight animate-on-scroll">
-            Dos seus documentos à IA no ar em 3 passos
+            Do seu documento ao cliente atendido em 3 passos
           </h2>
           <p className="mt-4 text-lg text-muted-foreground max-w-xl mx-auto animate-on-scroll animate-delay-100">
             Sem programador, sem semanas de configuração, sem integração para montar.

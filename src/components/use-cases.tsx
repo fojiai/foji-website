@@ -37,7 +37,7 @@ const CASES = [
     label: "Contabilidade",
     title: "Seu conhecimento contábil disponível a qualquer hora",
     description:
-      "Todo dia chegam as mesmas dúvidas sobre impostos e obrigações. Deixe a IA responder na hora, com base na sua documentação oficial, e libere a equipe para o trabalho que realmente fatura.",
+      "Todo dia chegam as mesmas dúvidas sobre impostos e obrigações. Deixe a Foji responder na hora, com base na sua documentação oficial, e libere a equipe para o trabalho que realmente fatura.",
     messages: [
       { role: "user", text: "Quando vence o DAS do Simples Nacional?" },
       {
@@ -76,7 +76,7 @@ export function UseCases() {
             Feito para o seu ramo
           </h2>
           <p className="mt-4 text-lg text-muted-foreground max-w-xl mx-auto animate-on-scroll animate-delay-100">
-            Mesma plataforma, conhecimento diferente. A sua IA conhece o seu negócio — não um negócio genérico.
+            Mesma ferramenta, conhecimento diferente. Ela conhece o seu negócio — não um negócio genérico.
           </p>
         </div>
 
