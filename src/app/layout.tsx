@@ -24,7 +24,6 @@ export const metadata: Metadata = {
   alternates: { canonical: "/" },
   icons: {
     icon: "/favicon_foji.png",
-    shortcut: "/favicon.ico",
     apple: "/favicon_foji.png",
   },
   openGraph: {
