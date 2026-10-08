@@ -16,7 +16,7 @@ const FEATURES = [
     ),
     title: "Responde com os seus próprios documentos",
     description:
-      "Envie PDFs, documentos do Word, planilhas ou apresentações. A Foji lê e organiza tudo para responder com o seu conteúdo — e não com informação genérica da internet.",
+      "Envie PDFs, documentos do Word, planilhas ou apresentações. A Foji lê e organiza tudo para responder com o seu conteúdo, e não com informação genérica da internet.",
   },
   {
     icon: (
@@ -40,7 +40,7 @@ const FEATURES = [
     ),
     title: "Fala a língua do seu cliente",
     description:
-      "Responde em português, inglês ou espanhol. Feita para o mercado brasileiro e em conformidade com a LGPD — e pronta também para clientes de fora.",
+      "Responde em português, inglês ou espanhol. Feita para o mercado brasileiro e em conformidade com a LGPD. E pronta também para clientes de fora.",
   },
   {
     icon: (

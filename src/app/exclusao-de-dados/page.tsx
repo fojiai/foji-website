@@ -3,7 +3,7 @@ import { Footer } from "@/components/cta-footer";
 import { LegalPage, Section } from "@/components/legal-page";
 
 export const metadata: Metadata = {
-  title: "Exclusão de Dados — Foji AI",
+  title: "Exclusão de Dados | Foji AI",
   description:
     "Como excluir os dados que a Foji AI mantém sobre você ou sua empresa, em conformidade com a LGPD (Lei nº 13.709/2018) e as políticas da Meta.",
 };
@@ -60,7 +60,7 @@ export default function ExclusaoDeDadosPage() {
           <p>
             Registros de cobrança e notas fiscais são mantidos pelo prazo exigido pela legislação
             fiscal brasileira, mesmo após a exclusão da conta. Esses registros contêm apenas dados
-            de faturamento — não o conteúdo das suas conversas ou documentos.
+            de faturamento, nunca o conteúdo das suas conversas ou documentos.
           </p>
           <p>
             Registros técnicos (logs) podem permanecer por um período curto em backups antes de

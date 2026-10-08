@@ -50,7 +50,7 @@ export function Footer() {
               <span className="font-bold text-lg">Foji AI</span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Seus clientes atendidos na hora, no site e no WhatsApp — com as informações do seu negócio.
+              Seus clientes atendidos na hora, no site e no WhatsApp, com as informações do seu negócio.
             </p>
           </div>
 
@@ -103,7 +103,7 @@ export function Footer() {
         </div>
 
         <div className="mt-12 pt-6 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-muted-foreground">
-          <p>&copy; 2026 P2 TECH INOVA SIMPLES (I.S.) — CNPJ 52.417.209/0001-59</p>
+          <p>&copy; 2026 P2 TECH INOVA SIMPLES (I.S.) · CNPJ 52.417.209/0001-59</p>
           <div className="flex items-center gap-3">
             <span className="flex items-center gap-1">
               <svg className="w-3 h-3 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>

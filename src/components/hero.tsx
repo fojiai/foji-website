@@ -64,7 +64,7 @@ export function Hero() {
         {/* Subheadline */}
         <p className="mt-6 text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed animate-on-scroll animate-delay-100">
           A Foji atende seus clientes no WhatsApp e no seu site usando as
-          informações do seu próprio negócio — preços, prazos e políticas.
+          informações do seu próprio negócio, como preços, prazos e políticas.
           Responde na hora, a qualquer hora, sem você parar o que está fazendo.
           Pronto em 5 minutos, sem instalar nada.
         </p>
@@ -133,7 +133,7 @@ export function Hero() {
                 <div className="bg-[#075E54] px-4 py-3 flex items-center gap-2">
                   <div className="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center text-sm font-bold text-white">S</div>
                   <div className="flex-1">
-                    <p className="text-sm font-semibold text-white">Suporte — Foji Store</p>
+                    <p className="text-sm font-semibold text-white">Suporte · Foji Store</p>
                     <p className="text-xs text-white/70">Online</p>
                   </div>
                   {/* WhatsApp icon */}

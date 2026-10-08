@@ -23,7 +23,7 @@ const CASES = [
     label: "Jurídico",
     title: "Atenda mais clientes sem aumentar a equipe",
     description:
-      "Seus clientes tiram dúvidas comuns a qualquer hora — contratos, prazos, procedimentos — com os avisos necessários e referência à fonte. Treinado com os documentos do seu escritório, não com lei genérica.",
+      "Seus clientes tiram dúvidas comuns a qualquer hora (contratos, prazos, procedimentos), com os avisos necessários e referência à fonte. Treinado com os documentos do seu escritório, não com lei genérica.",
     messages: [
       { role: "user", text: "Qual o prazo para entrar com reclamação trabalhista?" },
       {
@@ -51,7 +51,7 @@ const CASES = [
     label: "RH e interno",
     title: "Reduza em 70% os chamados internos",
     description:
-      "Férias, benefícios, integração de novos funcionários, regras de reembolso — o time se resolve na hora, sem precisar escrever para o RH. Funciona nas suas ferramentas internas ou direto no WhatsApp.",
+      "Férias, benefícios, integração de novos funcionários, regras de reembolso: o time se resolve na hora, sem precisar escrever para o RH. Funciona nas suas ferramentas internas ou direto no WhatsApp.",
     messages: [
       { role: "user", text: "Quantos dias de férias eu tenho direito?" },
       {
@@ -76,7 +76,7 @@ export function UseCases() {
             Feito para o seu ramo
           </h2>
           <p className="mt-4 text-lg text-muted-foreground max-w-xl mx-auto animate-on-scroll animate-delay-100">
-            Mesma ferramenta, conhecimento diferente. Ela conhece o seu negócio — não um negócio genérico.
+            Mesma ferramenta, conhecimento diferente. Ela conhece o seu negócio, não um negócio genérico.
           </p>
         </div>
 

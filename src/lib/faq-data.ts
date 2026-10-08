@@ -22,8 +22,12 @@ export const FAQS: FaqItem[] = [
     a: "Com o recurso liberado no seu plano, você conecta o seu número do WhatsApp Business em um clique, pela própria Meta. As mensagens que chegam vão direto para o agente, que responde na hora. Você também pode cadastrar contatos para transferir a conversa a uma pessoa quando precisar.",
   },
   {
+    q: "O WhatsApp tem algum custo além do plano da Foji?",
+    a: "Pode ter, e queremos que você saiba antes. O WhatsApp é da Meta, a mesma empresa do Facebook e do Instagram, e a Meta cobra das empresas que usam o WhatsApp com atendimento automático. Cada número tem 1.000 respostas grátis por mês; depois disso, a Meta cobra alguns centavos por mensagem. Mensagens que a sua empresa manda primeiro, como promoções e lembretes, a Meta sempre cobra. Esse valor vai direto no cartão que você cadastra na sua conta da Meta: não passa pela Foji, e a Foji não ganha nada com ele. Separado disso, o seu plano da Foji inclui um número de mensagens de WhatsApp por mês, que você acompanha no painel.",
+  },
+  {
     q: "Meus dados estão seguros?",
-    a: "Sim. Os documentos ficam criptografados na AWS. O histórico de conversas é apagado automaticamente após 90 dias. Seguimos a LGPD (Brasil), o GDPR (UE) e o CCPA (EUA). Os pagamentos são processados pela Stripe — nunca guardamos números de cartão.",
+    a: "Sim. Os documentos ficam criptografados na AWS. O histórico de conversas é apagado automaticamente após 90 dias. Seguimos a LGPD (Brasil), o GDPR (UE) e o CCPA (EUA). Os pagamentos são processados pela Stripe. Nós nunca guardamos números de cartão.",
   },
   {
     q: "Dá para usar a Foji em outros idiomas?",

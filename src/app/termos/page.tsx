@@ -4,7 +4,7 @@ import { Footer } from "@/components/cta-footer";
 import { LegalPage, Section } from "@/components/legal-page";
 
 export const metadata: Metadata = {
-  title: "Termos de Uso — Foji AI",
+  title: "Termos de Uso | Foji AI",
   description:
     "Condições de uso da plataforma Foji AI: contratação, planos, uso aceitável, responsabilidades e limitações.",
 };
@@ -255,7 +255,7 @@ export default function TermosPage() {
           <p>
             Estes Termos são regidos pelas leis da República Federativa do Brasil. Fica eleito o foro
             da comarca da sede da Foji para dirimir controvérsias, com renúncia a qualquer outro, por
-            mais privilegiado que seja — ressalvado, no caso de relação de consumo, o direito de o
+            mais privilegiado que seja. Fica ressalvado, no caso de relação de consumo, o direito de o
             consumidor demandar no foro de seu domicílio.
           </p>
         </Section>

@@ -10,7 +10,7 @@ export const SITE_NAME = "Foji AI";
 
 /** Under 60 chars where possible so Google doesn't truncate it in results. */
 export const SITE_TITLE =
-  "Foji AI — IA no seu WhatsApp, treinada com os seus documentos";
+  "Foji AI | IA no seu WhatsApp, treinada com os seus documentos";
 
 export const SITE_DESCRIPTION =
   "Coloque uma IA para atender seus clientes no WhatsApp e no seu site, " +

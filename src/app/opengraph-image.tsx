@@ -10,7 +10,7 @@ import { ImageResponse } from "next/og";
  * always matches the current wording.
  */
 export const runtime = "edge";
-export const alt = "Foji AI — IA no seu WhatsApp, treinada com os seus documentos";
+export const alt = "Foji AI | IA no seu WhatsApp, treinada com os seus documentos";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 

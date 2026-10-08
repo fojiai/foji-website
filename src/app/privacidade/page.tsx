@@ -3,7 +3,7 @@ import { Footer } from "@/components/cta-footer";
 import { LegalPage, Section } from "@/components/legal-page";
 
 export const metadata: Metadata = {
-  title: "Política de Privacidade — Foji AI",
+  title: "Política de Privacidade | Foji AI",
   description:
     "Como a Foji AI coleta, usa, armazena e protege dados pessoais, em conformidade com a LGPD (Lei nº 13.709/2018).",
 };
@@ -35,12 +35,12 @@ export default function PrivacidadePage() {
           <ul>
             <li>
               <strong className="text-foreground">Somos controladores</strong> dos dados de cadastro
-              e uso dos nossos clientes — as empresas que contratam a Foji. Decidimos as finalidades
+              e uso dos nossos clientes, que são as empresas que contratam a Foji. Decidimos as finalidades
               desse tratamento.
             </li>
             <li>
               <strong className="text-foreground">Somos operadores</strong> dos dados que nossos
-              clientes inserem ou coletam por meio da plataforma — documentos enviados, conversas
+              clientes inserem ou coletam por meio da plataforma: documentos enviados, conversas
               dos visitantes do site ou do WhatsApp, contatos e oportunidades do CRM. Nesses casos,
               quem determina as finalidades é o <strong className="text-foreground">cliente</strong>,
               que atua como controlador. Tratamos esses dados apenas para prestar o serviço, seguindo
@@ -49,7 +49,7 @@ export default function PrivacidadePage() {
           </ul>
           <p>
             Se você conversou com um agente de IA em um site ou WhatsApp de uma empresa, essa empresa
-            é a controladora dos seus dados. Para exercer direitos, procure-a diretamente — mas você
+            é a controladora dos seus dados. Para exercer direitos, procure-a diretamente. Mas você
             também pode nos contatar e encaminharemos.
           </p>
         </Section>
@@ -99,7 +99,7 @@ export default function PrivacidadePage() {
           <p>Tratamos dados pessoais com as seguintes finalidades e bases legais (art. 7º da LGPD):</p>
           <ul>
             <li>
-              <strong className="text-foreground">Prestar o serviço contratado</strong> — criar e
+              <strong className="text-foreground">Prestar o serviço contratado</strong>: criar e
               operar agentes, processar documentos, responder conversas, agendar compromissos e
               gerenciar o CRM. Base: execução de contrato.
             </li>
@@ -138,7 +138,7 @@ export default function PrivacidadePage() {
           </p>
           <p>
             As respostas são geradas automaticamente e podem conter imprecisões. Elas não substituem
-            orientação profissional — jurídica, contábil, médica ou financeira.
+            orientação profissional jurídica, contábil, médica ou financeira.
           </p>
         </Section>
 
@@ -149,30 +149,30 @@ export default function PrivacidadePage() {
           </p>
           <ul>
             <li>
-              <strong className="text-foreground">Amazon Web Services (AWS)</strong> — hospedagem,
+              <strong className="text-foreground">Amazon Web Services (AWS)</strong>: hospedagem,
               banco de dados, armazenamento de arquivos e filas de processamento.
             </li>
             <li>
-              <strong className="text-foreground">Vercel</strong> — hospedagem das interfaces web.
+              <strong className="text-foreground">Vercel</strong>: hospedagem das interfaces web.
             </li>
             <li>
               <strong className="text-foreground">OpenAI, Google e Amazon Bedrock</strong> —
               processamento de linguagem natural (geração das respostas).
             </li>
             <li>
-              <strong className="text-foreground">Meta Platforms</strong> — envio e recebimento de
+              <strong className="text-foreground">Meta Platforms</strong>: envio e recebimento de
               mensagens via WhatsApp Business Cloud API, quando o cliente ativa esse canal.
             </li>
             <li>
-              <strong className="text-foreground">Google</strong> — agendamento no Google Calendar,
+              <strong className="text-foreground">Google</strong>: agendamento no Google Calendar,
               quando autorizado pelo cliente.
             </li>
             <li>
-              <strong className="text-foreground">Provedores de pagamento</strong> — processamento de
+              <strong className="text-foreground">Provedores de pagamento</strong>: processamento de
               cobranças e assinaturas.
             </li>
             <li>
-              <strong className="text-foreground">Resend</strong> — envio de e-mails transacionais.
+              <strong className="text-foreground">Resend</strong>: envio de e-mails transacionais.
             </li>
           </ul>
           <p>
@@ -212,8 +212,8 @@ export default function PrivacidadePage() {
           <p>
             Mantemos os dados enquanto a conta estiver ativa e pelo tempo necessário às finalidades
             descritas. Encerrada a relação contratual, os dados podem ser eliminados ou anonimizados
-            em prazo razoável, ressalvada a guarda exigida por obrigação legal — por exemplo, registros
-            fiscais e contábeis — ou para exercício regular de direitos.
+            em prazo razoável, ressalvada a guarda exigida por obrigação legal (por exemplo, registros
+            fiscais e contábeis) ou para exercício regular de direitos.
           </p>
           <p>
             O cliente pode excluir documentos, contatos e agentes a qualquer momento pela plataforma.
