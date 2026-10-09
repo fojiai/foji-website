@@ -15,7 +15,7 @@ export default function TermosPage() {
       <LegalPage
         title="Termos de Uso"
         subtitle="Estas condições regem o acesso e o uso da plataforma Foji AI. Ao criar uma conta ou utilizar o serviço, você concorda com elas."
-        updatedAt="23 de julho de 2026"
+        updatedAt="9 de outubro de 2026"
       >
         <Section n={1} title="Objeto e aceitação">
           <p>
@@ -56,25 +56,62 @@ export default function TermosPage() {
           </p>
           <p>
             A assinatura é <strong className="text-foreground">recorrente</strong> e renova
-            automaticamente ao fim de cada ciclo, até que seja cancelada. Os valores são expressos em
-            reais (R$), salvo indicação em contrário.
+            automaticamente ao fim de cada ciclo, até que seja cancelada. Há dois ciclos de cobrança:
+          </p>
+          <ul>
+            <li>
+              <strong className="text-foreground">Mensal</strong>: pago com cartão de crédito,
+              cobrado automaticamente a cada mês;
+            </li>
+            <li>
+              <strong className="text-foreground">Anual</strong>: pago de uma só vez, a cada ano, com
+              cartão de crédito ou Pix, quando o plano oferecer essa opção.
+            </li>
+          </ul>
+          <p>
+            Os valores são expressos em reais (R$). Os pagamentos são processados pelo{" "}
+            <strong className="text-foreground">Asaas</strong>, instituição de pagamento brasileira
+            regulada pelo Banco Central do Brasil. Os dados do cartão são digitados diretamente no
+            ambiente de pagamento do Asaas e não são recebidos nem armazenados pela Foji. A nota
+            fiscal de serviço (NFS-e) é emitida automaticamente a cada pagamento.
+          </p>
+          <p>
+            <strong className="text-foreground">Mudança de plano.</strong> Ao passar para um plano
+            superior, os novos recursos são liberados na hora e é cobrada apenas a diferença
+            proporcional aos dias que faltam no período em curso. Ao passar para um plano inferior, a
+            mudança vale a partir do fim do período já pago.
+          </p>
+          <p>
+            <strong className="text-foreground">Mensagens de WhatsApp além da franquia.</strong> Nos
+            planos que preveem preço por mensagem excedente, as mensagens enviadas além da quantidade
+            mensal incluída no plano são cobradas ao fim de cada mês, pelo valor por mensagem
+            informado no plano. Essa cobrança é da Foji e não se confunde com as tarifas da Meta
+            descritas na seção 6.
+          </p>
+          <p>
+            <strong className="text-foreground">Falta de pagamento.</strong> Se uma cobrança for
+            recusada ou não for paga no vencimento, o serviço continua funcionando por{" "}
+            <strong className="text-foreground">7 dias</strong> para que o pagamento seja
+            regularizado. Depois desse prazo, os agentes ficam pausados até a quitação. A pausa não
+            apaga nenhum dado, e o serviço volta ao normal assim que o pagamento é confirmado.
           </p>
           <p>
             Podemos reajustar preços mediante aviso prévio de, no mínimo, 30 dias. O reajuste não
-            atinge ciclos já pagos. O não pagamento pode acarretar suspensão do acesso após
-            notificação.
+            atinge ciclos já pagos.
           </p>
         </Section>
 
         <Section n={4} title="Teste gratuito, cancelamento e reembolso">
           <p>
-            Podemos oferecer período de teste gratuito. Ao final, a cobrança do plano escolhido é
-            iniciada, salvo cancelamento antes do término.
+            Podemos oferecer período de teste gratuito, sem necessidade de cadastrar cartão. Nada é
+            cobrado durante o teste. Ao final, para continuar usando o serviço, basta contratar um
+            plano.
           </p>
           <p>
-            Você pode cancelar a qualquer momento pelo painel. O cancelamento interrompe a renovação
-            seguinte e o acesso permanece até o fim do período já pago —{" "}
-            <strong className="text-foreground">sem multa ou fidelidade</strong>.
+            Você pode cancelar a qualquer momento pelo painel,{" "}
+            <strong className="text-foreground">sem multa ou fidelidade</strong>. O cancelamento
+            interrompe a renovação seguinte: o acesso permanece até o fim do período já pago e nenhum
+            valor adicional é cobrado.
           </p>
           <p>
             Nos termos do art. 49 do Código de Defesa do Consumidor, quando aplicável, o direito de

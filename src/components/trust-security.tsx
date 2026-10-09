@@ -32,8 +32,8 @@ const TRUST_ITEMS = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
       </svg>
     ),
-    title: "Cobrança com padrão PCI",
-    body: "Os pagamentos são processados exclusivamente pela Stripe. Nunca guardamos nem vemos os dados do seu cartão.",
+    title: "Pagamento seguro pelo Asaas",
+    body: "Os pagamentos são feitos pelo Asaas, empresa brasileira de pagamentos autorizada pelo Banco Central. Os dados do seu cartão vão direto para eles. A Foji nunca vê nem guarda o número do seu cartão.",
   },
 ];
 
@@ -69,7 +69,7 @@ export function TrustSecurity() {
 
         {/* Compliance badges row */}
         <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
-          {["LGPD", "GDPR", "CCPA", "AWS S3", "Stripe PCI"].map((badge) => (
+          {["LGPD", "GDPR", "CCPA", "AWS S3", "Pagamentos via Asaas"].map((badge) => (
             <div key={badge} className="flex items-center gap-1.5 rounded-full border border-border bg-muted/30 px-3 py-1.5 text-xs font-semibold text-muted-foreground">
               <svg className="w-3 h-3 text-green-500" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />

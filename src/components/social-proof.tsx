@@ -42,12 +42,12 @@ export function SocialProof() {
               <span className="text-sm font-semibold text-foreground/60">Meta Cloud API</span>
             </div>
 
-            {/* Stripe */}
+            {/* Asaas (payments). Generic card icon: we don't ship their logo. */}
             <div className="flex items-center gap-2 opacity-50 hover:opacity-80 transition-opacity">
-              <svg className="w-5 h-5 text-[#635BFF]" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M13.976 9.15c-2.172-.806-3.356-1.426-3.356-2.409 0-.831.683-1.305 1.901-1.305 2.227 0 4.515.858 6.09 1.631l.89-5.494C18.252.975 15.697 0 12.165 0 9.667 0 7.589.654 6.104 1.872 4.56 3.147 3.757 4.992 3.757 7.218c0 4.039 2.467 5.76 6.476 7.219 2.585.92 3.445 1.574 3.445 2.583 0 .98-.84 1.545-2.354 1.545-1.875 0-4.965-.921-6.99-2.109l-.9 5.555C4.678 23.132 7.413 24 11.323 24c2.649 0 4.764-.654 6.3-1.931 1.601-1.328 2.394-3.234 2.394-5.548 0-4.117-2.515-5.844-6.041-7.371z"/>
+              <svg className="w-5 h-5 text-foreground/60" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.75} d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
               </svg>
-              <span className="text-sm font-semibold text-foreground/60">Stripe</span>
+              <span className="text-sm font-semibold text-foreground/60">Asaas</span>
             </div>
           </div>
         </div>

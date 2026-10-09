@@ -14,7 +14,7 @@ export default function PrivacidadePage() {
       <LegalPage
         title="Política de Privacidade"
         subtitle="Como tratamos dados pessoais na plataforma Foji AI, em conformidade com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018)."
-        updatedAt="23 de julho de 2026"
+        updatedAt="9 de outubro de 2026"
       >
         <Section n={1} title="Quem somos">
           <p>
@@ -61,11 +61,13 @@ export default function PrivacidadePage() {
             horário, função do usuário e registros de convites entre membros da equipe.
           </p>
           <p>
-            <strong className="text-foreground">Dados de pagamento:</strong> plano contratado, status
-            da assinatura e histórico de cobranças. Dados completos de cartão são processados
-            diretamente pelo provedor de pagamento —{" "}
-            <strong className="text-foreground">não armazenamos números de cartão</strong> em nossos
-            servidores.
+            <strong className="text-foreground">Dados de pagamento:</strong> plano contratado, ciclo
+            de cobrança (mensal ou anual), forma de pagamento, status da assinatura, histórico de
+            cobranças e notas fiscais. Os dados do cartão são digitados diretamente no ambiente de
+            pagamento do Asaas, instituição de pagamento regulada pelo Banco Central do Brasil.{" "}
+            <strong className="text-foreground">Não recebemos nem armazenamos números de cartão</strong>{" "}
+            em nossos servidores; guardamos apenas a bandeira e os quatro últimos dígitos, para que
+            você reconheça o cartão no painel.
           </p>
           <p>
             <strong className="text-foreground">Conteúdo fornecido pelo cliente:</strong> documentos
@@ -156,7 +158,7 @@ export default function PrivacidadePage() {
               <strong className="text-foreground">Vercel</strong>: hospedagem das interfaces web.
             </li>
             <li>
-              <strong className="text-foreground">OpenAI, Google e Amazon Bedrock</strong> —
+              <strong className="text-foreground">OpenAI, Google e Amazon Bedrock</strong>:
               processamento de linguagem natural (geração das respostas).
             </li>
             <li>
@@ -168,8 +170,9 @@ export default function PrivacidadePage() {
               quando autorizado pelo cliente.
             </li>
             <li>
-              <strong className="text-foreground">Provedores de pagamento</strong>: processamento de
-              cobranças e assinaturas.
+              <strong className="text-foreground">Asaas</strong>: processamento de pagamentos (cartão
+              de crédito e Pix), cobrança das assinaturas e emissão de notas fiscais. Para isso,
+              compartilhamos nome, e-mail e CPF ou CNPJ de quem paga.
             </li>
             <li>
               <strong className="text-foreground">Resend</strong>: envio de e-mails transacionais.
